@@ -94,6 +94,7 @@ static void OLOG_PRINTF_FORMAT_ATTR(1, 2)
  * 为了防止出现问题，OLog 对日志等级不使用宏定义。
  */
 using LogLevel = olog::log_info::LogLevel;
+using Logger = olog::logger::Logger;
 
 /**
  * @brief

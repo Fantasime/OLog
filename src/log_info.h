@@ -211,6 +211,7 @@ class LogAssembler {
         write_pos_ = write_pos;
         buffer_size_ = buffer_size;
         writed_count_ = 0;
+        is_full_ = false;
     }
 
     inline void loadLogInfo(const StaticLogInfo* static_info,
